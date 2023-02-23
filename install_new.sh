@@ -148,7 +148,7 @@ clear
 #
 echo -e "           \033[1;33m● \033[1;32mFINALIZANDO INSTALACAO, PODE DEMORAR \033[1;33m● \033[1;33mAGUARDE...\033[0m"
 cd /var/www/html
-wget https://www.dropbox.com/s/99ccg97v11dapbi/V25.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/vihn15nktie79nc/v20.zip > /dev/null 2>&1
 sleep 1
 unzip v20.zip > /dev/null 2>&1
 rm -rf v20.zip index.html > /dev/null 2>&1
@@ -187,7 +187,7 @@ echo '*/2 * * * * root /bin/autobackup.sh' >> /etc/crontab
 cd /bin
 wget https://raw.githubusercontent.com/jamesscripts/v20/main/Arquivos/html.sh > /dev/null 2>&1 && chmod 777 html.sh && sed -i -e 's/\r$//' html.sh && ./html.sh
 rm autobackup.sh > /dev/null 2>&1
-wget https://www.dropbox.com/s/n4t5om97yej70va/autobackup.sh > /dev/null 2>&1 && chmod 777 autobackup.sh && sed -i -e 's/\r$//' autobackup.sh && ./autobackup.sh
+wget https://www.dropbox.com/s/vihn15nktie79nc/v20.zip > /dev/null 2>&1 && chmod 777 autobackup.sh && sed -i -e 's/\r$//' autobackup.sh && ./autobackup.sh
 # echo '0 */12 * * * root cd /var/www/html/pages/system/ && bash cron.backup.sh && cd /root' >> /etc/crontab
 # echo '5 */12 * * * root cd /var/www/html/pages/system/ && /usr/bin/php cron.backup.php && cd /root' >> /etc/crontab
 /etc/init.d/cron reload > /dev/null 2>&1
