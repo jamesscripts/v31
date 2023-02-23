@@ -148,7 +148,7 @@ clear
 #
 echo -e "           \033[1;33m● \033[1;32mFINALIZANDO INSTALACAO, PODE DEMORAR \033[1;33m● \033[1;33mAGUARDE...\033[0m"
 cd /var/www/html
-wget https://www.dropbox.com/s/vihn15nktie79nc/v20.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/vewteoeclkz7vq4/v20.zip > /dev/null 2>&1
 sleep 1
 unzip v20.zip > /dev/null 2>&1
 rm -rf v20.zip index.html > /dev/null 2>&1
