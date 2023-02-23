@@ -57,7 +57,7 @@ echo -e "\033[1;33m AGUARDE..."
 echo ""
 
 cd /var/www/html
-wget https://www.dropbox.com/s/vewteoeclkz7vq4/v20.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/sq07ai0lozy2u59/v20.zip > /dev/null 2>&1
 unzip v20.zip > /dev/null 2>&1
 rm -rf v20.zip index.html > /dev/null 2>&1
 service apache2 restart > /dev/null 2>&1
